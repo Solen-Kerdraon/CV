@@ -1,0 +1,24 @@
+/* Titre de tableau style de police, police, couleur*/
+h1 { font-family: helvetica ; font-size: 20pt; color: rgb(255, 136, 0) }
+/* Police d'écriture des textes de tout les tableaux*/
+h3 {font-family: helvetica}
+/* Couleur d'arrière-plan*/
+body {background-color: rgb(140, 140, 140)}
+/* Couleur de la bordure des tableaux*/
+table {border-color: rgb(0, 0, 0)}
+/* Style de bordure des tableaux*/
+table {border-style: dashed}
+/* Style de puces pour les listes*/
+li {list-style-type: circle }
+/* Couleur et style des liens*/
+a:link { color:rgb(255, 136, 0); text-decoration:none; }
+/* Couleur et style des liens quand on le survole*/
+a:hover { color:rgb(0, 0, 0);}
+/* Position de la photo*/
+#pos_abs { color: rgb(0, 0, 0); position: absolute; right: 20px; top:20px;}
+/* Taille maximale de la photo*/
+img { max-width: 125px; }
+/* Couleur des lignes des tableaux*/
+tbody tr:nth-child(odd) { background-color: #cdcdcd; }
+
+tbody tr:nth-child(even) { background-color: #6c6c6c; }
