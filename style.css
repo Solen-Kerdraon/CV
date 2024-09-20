@@ -1,157 +1,196 @@
 /* Titre de tableau style de police, police, couleur*/
-h1 { font-family: helvetica ; font-size: 20pt; color: rgb(0, 0, 0) }
+h1 {
+    font-family: helvetica;
+    font-size: 20pt;
+    color: rgb(0, 0, 0)
+}
+
 /* Police d'écriture des textes de tout les tableaux*/
-h3 {font-family: helvetica}
+h3 {
+    font-family: helvetica
+}
+
 /* Couleur d'arrière-plan*/
-body {background-color: rgb(140, 140, 140)}
+body {
+    background-color: rgb(140, 140, 140)
+}
+
 /* Style de puces pour les listes*/
-li {list-style-type: circle }
+li {
+    list-style-type: circle
+}
+
 /* Couleur et style des liens*/
-a:link { color:rgb(255, 136, 0); text-decoration:none; }
+a:link {
+    color: rgb(255, 136, 0);
+    text-decoration: none;
+}
+
 /* Couleur et style des liens quand on le survole*/
-a:hover { color:rgb(0, 0, 0);}
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
 /* Position de la photo*/
-#pos_abs { color: rgb(0, 0, 0); position: absolute; right: 10px; top:10px; }
+#pos_abs {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
 /* Taille maximale de la photo*/
-img { max-width: 100px; }
+img {
+    max-width: 100px;
+}
+
 /* Couleur des lignes de tableaux*/
-.Études tr:nth-child(odd) { background-color:rgb(190, 190, 190);}
-.Diplômes tr:nth-child(odd) { background-color:rgb(190, 190, 190);}
-.Qualifications tr:nth-child(odd) { background-color:rgb(190, 190, 190);}
-.Expériences_professionnelles tr:nth-child(odd) { background-color:rgb(190, 190, 190);}
-.Activités tr:nth-child(odd) { background-color:rgb(190, 190, 190);}
+.Études tr:nth-child(odd) {
+    background-color: rgb(190, 190, 190);
+}
 
-#Études
-{
-/* Couleur de la bordure des tableaux*/
+.Diplômes tr:nth-child(odd) {
+    background-color: rgb(190, 190, 190);
+}
+
+.Qualifications tr:nth-child(odd) {
+    background-color: rgb(190, 190, 190);
+}
+
+.Expériences_professionnelles tr:nth-child(odd) {
+    background-color: rgb(190, 190, 190);
+}
+
+.Activités tr:nth-child(odd) {
+    background-color: rgb(190, 190, 190);
+}
+
+#Études {
+    /* Couleur de la bordure des tableaux*/
     border-color: rgb(0, 0, 0)
-/* Style de bordure des tableaux*/
-    border-style: dashed;
-/* Longueur de tout les tableaux*/
+        /* Style de bordure des tableaux*/
+        border-style: dashed;
+    /* Longueur de tout les tableaux*/
     width: 100%;
-/* Supprime les lignes dans les tableaux*/
+    /* Supprime les lignes dans les tableaux*/
     border-collapse: collapse;
-/* Bordure en points*/
+    /* Bordure en points*/
     border: dotted;
-/* Espacement entre les tableaux*/
-    margin-bottom: 20px; 
-/* Alignement des textes dans les tableaux*/
+    /* Espacement entre les tableaux*/
+    margin-bottom: 20px;
+    /* Alignement des textes dans les tableaux*/
     text-align: left;
-/* Couleur de fond de tableaux*/
+    /* Couleur de fond de tableaux*/
     background-color: rgb(255, 136, 0);
-/* Bordure arrondis des tableaux*/
+    /* Bordure arrondis des tableaux*/
     border-radius: 15px;
 
 }
-#Diplômes
-{
-/* Couleur de la bordure des tableaux*/
+
+#Diplômes {
+    /* Couleur de la bordure des tableaux*/
     border-color: rgb(0, 0, 0)
-/* Style de bordure des tableaux*/
-    border-style: dashed
-/* Longueur de tout les tableaux*/
-    width: 100%;
-/* Supprime les lignes dans les tableaux*/
+        /* Style de bordure des tableaux*/
+        border-style: dashed
+        /* Longueur de tout les tableaux*/
+        width: 100%;
+    /* Supprime les lignes dans les tableaux*/
     border-collapse: collapse;
-/* Bordure en points*/
+    /* Bordure en points*/
     border: dotted;
-/* Espacement entre les tableaux*/
-    margin-bottom: 20px; 
-/* Alignement des textes dans les tableaux*/
+    /* Espacement entre les tableaux*/
+    margin-bottom: 20px;
+    /* Alignement des textes dans les tableaux*/
     text-align: left;
-/* Couleur de fond de tableaux*/
+    /* Couleur de fond de tableaux*/
     background-color: rgb(121, 121, 121);
-/* Bordure arrondis des tableaux*/
+    /* Bordure arrondis des tableaux*/
     border-radius: 15px;
 
 }
 
-#Qualifications
-{
-/* Couleur de la bordure des tableaux*/
+#Qualifications {
+    /* Couleur de la bordure des tableaux*/
     border-color: rgb(0, 0, 0)
-/* Style de bordure des tableaux*/
-    border-style: dashed
-/* Longueur de tout les tableaux*/
-    width: 100%;
-/* Supprime les lignes dans les tableaux*/
+        /* Style de bordure des tableaux*/
+        border-style: dashed
+        /* Longueur de tout les tableaux*/
+        width: 100%;
+    /* Supprime les lignes dans les tableaux*/
     border-collapse: collapse;
-/* Bordure en points*/
+    /* Bordure en points*/
     border: dotted;
-/* Espacement entre les tableaux*/
-    margin-bottom: 20px; 
-/* Alignement des textes dans les tableaux*/
+    /* Espacement entre les tableaux*/
+    margin-bottom: 20px;
+    /* Alignement des textes dans les tableaux*/
     text-align: left;
-/* Couleur de fond de tableaux*/
+    /* Couleur de fond de tableaux*/
     background-color: rgb(255, 136, 0);
-/* Bordure arrondis des tableaux*/
+    /* Bordure arrondis des tableaux*/
     border-radius: 15px;
 
 }
 
 
-#Expériences_professionnelles
-{
-/* Couleur de la bordure des tableaux*/
+#Expériences_professionnelles {
+    /* Couleur de la bordure des tableaux*/
     border-color: rgb(0, 0, 0)
-/* Style de bordure des tableaux*/
-    border-style: dashed
-/* Longueur de tout les tableaux*/
-    width: 100%;
-/* Supprime les lignes dans les tableaux*/
+        /* Style de bordure des tableaux*/
+        border-style: dashed
+        /* Longueur de tout les tableaux*/
+        width: 100%;
+    /* Supprime les lignes dans les tableaux*/
     border-collapse: collapse;
-/* Bordure en points*/
+    /* Bordure en points*/
     border: dotted;
-/* Espacement entre les tableaux*/
-    margin-bottom: 20px; 
-/* Alignement des textes dans les tableaux*/
+    /* Espacement entre les tableaux*/
+    margin-bottom: 20px;
+    /* Alignement des textes dans les tableaux*/
     text-align: left;
-/* Couleur de fond de tableaux*/
-background-color: rgb(121, 121, 121);
-/* Bordure arrondis des tableaux*/
+    /* Couleur de fond de tableaux*/
+    background-color: rgb(121, 121, 121);
+    /* Bordure arrondis des tableaux*/
     border-radius: 15px;
 }
 
 
-#Activités
-{
-/* Couleur de la bordure des tableaux*/
+#Activités {
+    /* Couleur de la bordure des tableaux*/
     border-color: rgb(0, 0, 0)
-/* Style de bordure des tableaux*/
-    border-style: dashed
-/* Longueur de tout les tableaux*/
-    width: 100%;
-/* Supprime les lignes dans les tableaux*/
+        /* Style de bordure des tableaux*/
+        border-style: dashed
+        /* Longueur de tout les tableaux*/
+        width: 100%;
+    /* Supprime les lignes dans les tableaux*/
     border-collapse: collapse;
-/* Bordure en points*/
+    /* Bordure en points*/
     border: dotted;
-/* Espacement entre les tableaux*/
-    margin-bottom: 20px; 
-/* Alignement des textes dans les tableaux*/
+    /* Espacement entre les tableaux*/
+    margin-bottom: 20px;
+    /* Alignement des textes dans les tableaux*/
     text-align: left;
-/* Couleur de fond de tableaux*/
+    /* Couleur de fond de tableaux*/
     background-color: rgb(255, 136, 0);
-/* Bordure arrondis des tableaux*/
+    /* Bordure arrondis des tableaux*/
     border-radius: 15px;
 }
 
 
-#Divers
-{
-/* Couleur de la bordure des tableaux*/
+#Divers {
+    /* Couleur de la bordure des tableaux*/
     border-color: rgb(0, 0, 0)
-/* Style de bordure des tableaux*/
-    border-style: dashed
-/* Longueur de tout les tableaux*/
-    width: 100%;
-/* Bordure en points*/
+        /* Style de bordure des tableaux*/
+        border-style: dashed
+        /* Longueur de tout les tableaux*/
+        width: 100%;
+    /* Bordure en points*/
     border: dotted;
-/* Espacement entre les tableaux*/
-    margin-bottom: 20px; 
-/* Alignement des textes dans les tableaux*/
+    /* Espacement entre les tableaux*/
+    margin-bottom: 20px;
+    /* Alignement des textes dans les tableaux*/
     text-align: left;
-/* Couleur de fond de tableaux*/
-background-color: rgb(121, 121, 121);
-/* Bordure arrondis des tableaux*/
+    /* Couleur de fond de tableaux*/
+    background-color: rgb(121, 121, 121);
+    /* Bordure arrondis des tableaux*/
     border-radius: 15px;
 }
