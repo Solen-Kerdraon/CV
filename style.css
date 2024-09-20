@@ -45,35 +45,38 @@ img {
 }
 
 /* Couleur des lignes de tableaux*/
-.Études tr:nth-child(odd) {
+.etudescolor tr:nth-child(odd) {
     background-color: rgb(190, 190, 190);
 }
 
-.Diplômes tr:nth-child(odd) {
+.diplomescolor tr:nth-child(odd) {
     background-color: rgb(190, 190, 190);
 }
 
-.Qualifications tr:nth-child(odd) {
+.qualificationscolor tr:nth-child(odd) {
     background-color: rgb(190, 190, 190);
 }
 
-.Expériences_professionnelles tr:nth-child(odd) {
+.experiences_professionnellescolor tr:nth-child(odd) {
     background-color: rgb(190, 190, 190);
 }
 
-.Activités tr:nth-child(odd) {
+.activitescolor tr:nth-child(odd) {
     background-color: rgb(190, 190, 190);
 }
 
-#Études {
+/* Supprime les lignes dans les tableaux*/
+table { border-collapse:collapse;
+width:100%;
+} 
+
+#etudes {
     /* Couleur de la bordure des tableaux*/
-    border-color: rgb(0, 0, 0)
+    border-color: rgb(0, 0, 0);
         /* Style de bordure des tableaux*/
         border-style: dashed;
     /* Longueur de tout les tableaux*/
     width: 100%;
-    /* Supprime les lignes dans les tableaux*/
-    border-collapse: collapse;
     /* Bordure en points*/
     border: dotted;
     /* Espacement entre les tableaux*/
@@ -87,17 +90,15 @@ img {
 
 }
 
-#Diplômes {
+#diplomes {
     /* Couleur de la bordure des tableaux*/
-    border-color: rgb(0, 0, 0)
+    border-color: rgb(0, 0, 0);
         /* Style de bordure des tableaux*/
-        border-style: dashed
+        border-style: dashed;
         /* Longueur de tout les tableaux*/
         width: 100%;
-    /* Supprime les lignes dans les tableaux*/
-    border-collapse: collapse;
     /* Bordure en points*/
-    border: dotted;
+    border:dotted ;
     /* Espacement entre les tableaux*/
     margin-bottom: 20px;
     /* Alignement des textes dans les tableaux*/
@@ -109,15 +110,13 @@ img {
 
 }
 
-#Qualifications {
+#qualifications {
     /* Couleur de la bordure des tableaux*/
-    border-color: rgb(0, 0, 0)
+    border-color: rgb(0, 0, 0);
         /* Style de bordure des tableaux*/
-        border-style: dashed
+        border-style: dashed;
         /* Longueur de tout les tableaux*/
         width: 100%;
-    /* Supprime les lignes dans les tableaux*/
-    border-collapse: collapse;
     /* Bordure en points*/
     border: dotted;
     /* Espacement entre les tableaux*/
@@ -132,15 +131,13 @@ img {
 }
 
 
-#Expériences_professionnelles {
+#experiences_professionnelles {
     /* Couleur de la bordure des tableaux*/
-    border-color: rgb(0, 0, 0)
+    border-color: rgb(0, 0, 0);
         /* Style de bordure des tableaux*/
-        border-style: dashed
+        border-style: dashed;
         /* Longueur de tout les tableaux*/
         width: 100%;
-    /* Supprime les lignes dans les tableaux*/
-    border-collapse: collapse;
     /* Bordure en points*/
     border: dotted;
     /* Espacement entre les tableaux*/
@@ -154,15 +151,13 @@ img {
 }
 
 
-#Activités {
+#activites {
     /* Couleur de la bordure des tableaux*/
-    border-color: rgb(0, 0, 0)
+    border-color: rgb(0, 0, 0);
         /* Style de bordure des tableaux*/
-        border-style: dashed
+        border-style: dashed;
         /* Longueur de tout les tableaux*/
         width: 100%;
-    /* Supprime les lignes dans les tableaux*/
-    border-collapse: collapse;
     /* Bordure en points*/
     border: dotted;
     /* Espacement entre les tableaux*/
@@ -176,11 +171,11 @@ img {
 }
 
 
-#Divers {
+#divers {
     /* Couleur de la bordure des tableaux*/
-    border-color: rgb(0, 0, 0)
+    border-color: rgb(0, 0, 0);
         /* Style de bordure des tableaux*/
-        border-style: dashed
+        border-style: dashed;
         /* Longueur de tout les tableaux*/
         width: 100%;
     /* Bordure en points*/
